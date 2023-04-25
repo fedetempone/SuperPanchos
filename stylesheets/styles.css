@@ -114,10 +114,46 @@ html {
     text-decoration-line: underline;
 }
 
+/* RESPONSIVE: PUNTO DE CORTE HASTA 300PX */
 
-/* RESPONSIVE: PUNTO DE CORTE HASTA 500PX */
+@media (max-width: 300px){
+    .titulo h1 {
+        font-size: 0.5em;
+    }
+    .pancito {
+        width: 7rem;
+        height: 1rem;
+    }
 
-@media (max-width: 500px){
+    .salchi {
+        width: 8rem;
+        height: 1rem;
+    }
+
+    .moztaza::before{
+        top: 44.5%;
+        max-width: 7rem;
+        font-size: 2em;
+    }
+
+    .moztaza {
+        max-width: 7rem;
+    }
+
+    .mayonesa{
+        max-width: 7rem;
+    }
+
+    .mayonesa::before{
+        top: 29.5%;
+        max-width: 7rem;
+        font-size: 2em;
+    }
+}
+
+/* RESPONSIVE: PUNTO DE CORTE DE 300PX HASTA 500PX */
+
+@media (min-width:300px) and (max-width: 500px){
     .pancito{
         height: 1rem;
         width: 9rem;
