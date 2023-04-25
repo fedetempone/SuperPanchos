@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Delicious Handrawn', cursive;
+}
+
+html {
+    background: url(../img/76778751e0a3e7bd91d8209722e7eb52.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    background-position: center center;
+    background-color: #343434;
+}
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.titulo h1{
+    font-size: 2.7em;
+    color: white;
+    opacity: 0.7;
+}
+
+.pancito{
+    background-color:#d58114 ;
+    height: 4rem;
+    width: 24rem;
+    margin: 0px auto;
+    border: 1px solid black;
+}
+
+#pan1{
+    border-top-right-radius: 175px;
+    border-top-left-radius: 175px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    box-shadow: inset 0 -7px 0px rgba(0,0,0,0.3) ;
+}
+
+#pan2{
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 175px;
+    border-bottom-right-radius: 175px;
+    box-shadow: inset 0 7px 0px rgba(0,0,0,0.3) ;
+}
+
+#salchicha{
+    border-radius: 100px;
+    box-shadow: inset 6px -6px rgba(0,0,0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.salchi{
+    background-color:#a52a2a ;
+    height: 2rem;
+    width: 28rem;
+    margin: 0px auto;
+}
+
+.moztaza{
+    height: 200px;
+    width: 24rem;
+}
+
+.moztaza::before{
+    height: 200px;
+    max-width: 24rem;
+    position: absolute;
+    color: transparent;
+    overflow: hidden;
+    content: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    text-decoration-style: wavy;
+    text-decoration-color:rgb(174, 104, 14) ;
+    font-size: 6em;
+    text-decoration-line: underline;
+}
+
+.mayonesa{
+    height: 200px;
+    width: 24rem;
+    position: absolute;
+}
+
+.mayonesa::before{
+    height: 200px;
+    max-width: 24rem;
+    position: absolute;
+    color: transparent;
+    overflow: hidden;
+    content: "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa";
+    text-decoration-style: wavy;
+    text-decoration-color:yellow;
+    font-size: 5em;
+    text-decoration-line: underline;
+}
+
+
+@media (max-width: 500px){
+    .pancito{
+        height: 1rem;
+        width: 9rem;
+    }
+
+    .salchi{
+        height: 0.8rem;
+        width: 11rem;
+    }
+
+    .moztaza::before{
+        font-size: 1em;
+        top: 47.5%;
+        max-width: 9rem;
+    }
+
+    .moztaza{
+        max-width: 9rem;
+    }
+
+    .mayonesa{
+        max-width: 9rem;
+    }
+
+    .mayonesa::before{
+        font-size: 1em;
+        top: 39.4%;
+        max-width: 9rem;
+    }
+
+    #pan1{
+        box-shadow: inset 0 -4px 0px rgba(0,0,0,0.3) ;
+    }
+    #pan2{
+        box-shadow: inset 0 4px 0px rgba(0,0,0,0.3) ;
+    }
+
+    .titulo h1{
+        font-size: 1em;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 700px){
+    .pancito{
+        height: 3rem;
+        width: 15rem;
+    }
+
+    .salchi {
+        height: 2rem;
+        width: 20rem;
+    }
+
+    .moztaza::before {
+        font-size: 3em;
+        top: 42.5%;
+        max-width: 15rem;
+    }
+
+    .moztaza {
+        max-width: 15rem;
+    }
+
+    .mayonesa::before {
+        font-size: 3em;
+        top: 20.4%;
+        max-width: 15rem;
+    }
+
+    .mayonesa {
+        max-width: 15rem;
+    }
+
+    .titulo h1{
+        font-size: 1.7em;
+    }
+}
