@@ -1,3 +1,5 @@
+/* ESTILOS GENERALES */
+
 body{
     margin: 0;
     padding: 0;
@@ -14,6 +16,8 @@ html {
     background-color: #343434;
 }
 
+
+/* CONTENEDOR QUE ENVUELVE TODO EL CONTENIDO */
 .contenedor{
     display: flex;
     align-items: center;
@@ -21,13 +25,14 @@ html {
     flex-direction: column;
     height: 100vh;
 }
-
+/* TEXTO DEL TITULO */
 .titulo h1{
     font-size: 2.7em;
     color: white;
     opacity: 0.7;
 }
 
+/* ESTILOS PARA AMBOS PANES */
 .pancito{
     background-color:#d58114 ;
     height: 4rem;
@@ -36,6 +41,7 @@ html {
     border: 1px solid black;
 }
 
+/* ESTILOS PARA EL PAN DE ARRIBA */
 #pan1{
     border-top-right-radius: 175px;
     border-top-left-radius: 175px;
@@ -44,6 +50,7 @@ html {
     box-shadow: inset 0 -7px 0px rgba(0,0,0,0.3) ;
 }
 
+/* ESTILOS PARA EL PAN DE ABAJO */
 #pan2{
     border-top-right-radius: 50px;
     border-top-left-radius: 50px;
@@ -52,6 +59,7 @@ html {
     box-shadow: inset 0 7px 0px rgba(0,0,0,0.3) ;
 }
 
+/* ESTILOS PARA LA SALCHICHA */
 #salchicha{
     border-radius: 100px;
     box-shadow: inset 6px -6px rgba(0,0,0,0.3);
@@ -66,6 +74,8 @@ html {
     width: 28rem;
     margin: 0px auto;
 }
+
+/* ESTILOS PARA LOS CONDIMENTOS */
 
 .moztaza{
     height: 200px;
@@ -104,6 +114,8 @@ html {
     text-decoration-line: underline;
 }
 
+
+/* RESPONSIVE: PUNTO DE CORTE HASTA 500PX */
 
 @media (max-width: 500px){
     .pancito{
@@ -147,6 +159,8 @@ html {
         font-size: 1em;
     }
 }
+
+/* RESPONSIVE PUNTOS DE CORTE DESDE 500PX HASTA LOS 700PX */
 
 @media (min-width: 500px) and (max-width: 700px){
     .pancito{
