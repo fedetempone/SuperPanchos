@@ -132,7 +132,7 @@ html {
     }
 
     .moztaza::before{
-        top: 44.5%;
+        top: 46.5%;
         max-width: 7rem;
         font-size: 2em;
     }
@@ -167,7 +167,7 @@ html {
 
     .moztaza::before{
         font-size: 1em;
-        top: 47.5%;
+        top: 48.5%;
         max-width: 9rem;
     }
 
@@ -212,7 +212,7 @@ html {
 
     .moztaza::before {
         font-size: 3em;
-        top: 42.5%;
+        top: 44.5%;
         max-width: 15rem;
     }
 
